@@ -1,0 +1,92 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font: 13px / 1.6 "Courier New", Courier, monospace;
+  color: #fff;
+  background: #121212;
+}
+
+a {
+  color: #fff;
+}
+
+h2 {
+  margin: 5px 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  font: 13px / 1.6 "Courier New", Courier, monospace;
+  padding: 5px 10px;
+  color: #fff;
+  background: #232323;
+  border: 1px solid #555;
+  margin-bottom: 5px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #fff;
+}
+
+button {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 0;
+  background: #232323;
+  font: 13px / 1.6 "Courier New", Courier, monospace;
+  cursor: pointer;
+  color: #fff;
+}
+
+button:hover {
+  background: #555;
+}
+
+.box {
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.logo {
+  width: 100%;
+}
+
+.soon {
+  font-size: 18px;
+}
+
+.messagebox {
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
+
+.messagebox.error {
+  background: #EC407A;
+}
+
+.messagebox.success {
+  background: #29B6F6;
+}
+
+.messagebox.info {
+  background: #5C6BC0;
+}
+
+@media only screen and ( max-width: 620px ) {
+  .box {
+    width: auto;
+    position: static;
+    transform: none;
+    padding: 40px 10px;
+  }
+}

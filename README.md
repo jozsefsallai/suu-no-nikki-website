@@ -1,0 +1,1 @@
+# suu-no-nikki-website
