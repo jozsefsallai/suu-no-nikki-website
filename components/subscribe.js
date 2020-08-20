@@ -17,8 +17,8 @@ function SubscribeForm({ subscribe, status, message }) {
       {status === 'error' && <ErrorMessage message={message} />}
       {status === 'success' && <SuccessMessage message={message} />}
 
-      <input ref={node => (name = node)} placeholder="Name (*)" autoComplete={false} />
-      <input type="email" ref={node => (email = node)} placeholder="E-mail (*)" autoComplete={false} />
+      <input ref={node => (name = node)} placeholder="Name (*)" autoComplete="false" />
+      <input type="email" ref={node => (email = node)} placeholder="E-mail (*)" autoComplete="false" />
 
       <p>
         By clicking on the "Subscribe" button, you agree that we will use the provided personal information

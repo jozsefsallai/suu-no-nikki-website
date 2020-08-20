@@ -11,7 +11,15 @@ export default function Home() {
       <main className="box">
         <img src="/static/logo.svg" className="logo" />
 
+        <p>
+          A plucky young girl goes on an extraordinary adventure that changes her life forever.
+          Will she understand the concepts of true friendship and responsibility? Follow Sue on
+          her journey to self-discovery and personal growth in this fun retro platformer.
+        </p>
+
         <p className="soon">Coming soon...</p>
+
+        <hr />
 
         <SubscribeBlock />
       </main>

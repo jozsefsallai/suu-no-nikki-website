@@ -48,6 +48,14 @@ button:hover {
   background: #555;
 }
 
+hr {
+  border: 0;
+  height: 1px;
+  width: 70%;
+  background: #555;
+  margin: 20px auto;
+}
+
 .box {
   width: 600px;
   position: absolute;
